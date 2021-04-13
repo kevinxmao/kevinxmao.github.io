@@ -2049,7 +2049,7 @@ input, select, textarea {
 /* Image */
 
 	.logo {
-		height: 25px;
+		height: 40px;
 	}
 
 	.image {
@@ -2395,6 +2395,7 @@ input, select, textarea {
 
 			ul.feature-icons h4 {
 				font-size: 1em;
+				text-align: left;
 			}
 
 			ul.feature-icons li:before {
