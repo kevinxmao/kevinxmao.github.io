@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #7f867b;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2048,6 +2048,10 @@ input, select, textarea {
 
 /* Image */
 
+	.logo {
+		height: 25px;
+	}
+
 	.image {
 		border-radius: 5px;
 		border: 0;
@@ -2385,8 +2389,13 @@ input, select, textarea {
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
+			width: 24%;
+			text-transform: uppercase;
 		}
+
+			ul.feature-icons h4 {
+				font-size: 1em;
+			}
 
 			ul.feature-icons li:before {
 				-moz-osx-font-smoothing: grayscale;
