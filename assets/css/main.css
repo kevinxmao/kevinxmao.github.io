@@ -2049,7 +2049,18 @@ input, select, textarea {
 /* Image */
 
 	.logo {
-		height: 40px;
+		height: 35px;
+	}
+
+	.project-logo {
+		width: 150px;
+		margin-bottom: 10px;
+	}
+
+	#park-it {
+		font-family: 'Press Start 2P', cursive;
+		color: #0071cc;
+		font-size: 1em;
 	}
 
 	.image {
@@ -2394,7 +2405,7 @@ input, select, textarea {
 		}
 
 			ul.feature-icons h4 {
-				font-size: 1em;
+				font-size: 0.75em;
 				text-align: left;
 			}
 
@@ -2412,7 +2423,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #00573F;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
