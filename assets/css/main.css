@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Lato", sans-serif;
+		font-family: "Inter", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -135,7 +135,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #777;
-		font-weight: 700;
+		font-weight: 500;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
@@ -1785,14 +1785,14 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #00573F;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
 			color: #777;
 			font-size: 1.75em;
-			font-weight: 700;
+			font-weight: 500;
 			margin-top: -0.75em;
 		}
 
@@ -2710,7 +2710,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #00573F;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2718,7 +2718,7 @@ input, select, textarea {
 		text-align: center;
 		top: 0;
 		width: 23em;
-		right: 0;
+		left: 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2799,7 +2799,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #7f867b;
 					display: block;
 					padding: 0;
 				}
@@ -2818,7 +2818,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #00573F !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2829,7 +2829,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-right: 23em;
+		padding-left: 23em;
 	}
 
 /* Main */
