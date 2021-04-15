@@ -2997,6 +2997,7 @@ input, select, textarea {
 				-ms-transform: translateX(23em);
 				transform: translateX(23em);
 				right: 0;
+				left: auto;
 			}
 
 				#header > footer {
